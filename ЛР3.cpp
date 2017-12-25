@@ -11,6 +11,9 @@ using namespace std;
 int main()
 {
 	setlocale(0, "");
+	int a = 2+2;
+	
+	// nothing to see here
 	
 	cout << "hiiii";
 
