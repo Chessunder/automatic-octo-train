@@ -11,6 +11,8 @@ using namespace std;
 int main()
 {
 	setlocale(0, "");
+	
+	cout << "hiiii";
 
 	int i, k=0, n, j=0;
 	FILE *F1, *F2;
@@ -20,7 +22,8 @@ int main()
 
 	F1 = fopen("F1.txt", "w");
 	F2 = fopen("F2.txt", "w");
-	
+
+	
 	for (i = 0; i < 10; i++)
 	{
 		gets_s(line);
@@ -52,7 +55,7 @@ int main()
 
 	fclose(F1);
 	fputs(newline, F2);
-	fprintf(F2, "Êîë-âî ñòðîê íà÷èíàþùèõñÿ íà áóêâó À: %d", j);
+	fprintf(F2, "ÃŠÃ®Ã«-Ã¢Ã® Ã±Ã²Ã°Ã®Ãª Ã­Ã Ã·Ã¨Ã­Ã Ã¾Ã¹Ã¨ÃµÃ±Ã¿ Ã­Ã  Ã¡Ã³ÃªÃ¢Ã³ Ã€: %d", j);
 	fclose(F2);
 
 }
