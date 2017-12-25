@@ -13,6 +13,8 @@ int main()
 	setlocale(0, "");
 	int a = 2+2;
 	
+	// nothing to see here
+	
 	cout << "hiiii";
 
 	int i, k=0, n, j=0;
